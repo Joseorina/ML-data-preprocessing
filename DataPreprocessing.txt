@@ -1,0 +1,21 @@
+spliting data set into training set and test set
+need for this?
+-ML-about a machine that is going to learn something in this case a model learing from
+data to make predictions
+-We have tp test it on a new dataset which is diffrent form training set on which 
+we built out model
+-performace on test set should be same as that on training set
+-machine learning model users the x_train dataset to make correaltion btn dependent and
+independent variables and once it has understood the correlation, test if the model can apply the correlation on the test data set.
+- the better the model learns using the train data set the better predicting the test
+data set
+overfiting - regression-solve using regularisation technique.
+from sklearn.model_selection import train_test_split
+
+Feature scaling
+-variable are not on the same scale
+-this causes some issues in ML model
+-ml models are based on euclidean distance
+-need to transform values into the same scale
+standardisation, normalisation
+-dont need to apply F.s to classification (dependent variable)
